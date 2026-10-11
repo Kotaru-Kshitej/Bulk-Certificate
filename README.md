@@ -242,12 +242,3 @@ Prefix `CERT_`:
 
 ---
 
-## Interview notes (quick)
-
-- **Entry:** `app/main.py`  
-- **Routes:** `app/api.py`  
-- **ORM:** `Job`, `Certificate` in `app/models.py`  
-- **Render:** `generate_certificate_file` in `app/certificate_service.py`  
-- **Async bulk:** `app/worker.py`  
-- To change layout: adjust coordinates in `app/config.py` or replace the PNG template.  
-- To force a failure in demos: temporarily raise in `generate_certificate_file`.
